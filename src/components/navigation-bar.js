@@ -14,9 +14,9 @@ export default function NavigationBar(props) {
   );
   
   return (
-    <div>
+    <div className="navigation-bar">
       <h1>{props.title}</h1>
-      <nav>
+      <nav className="navigation-bar-nav">
         <ul>
           {links}
         </ul>
